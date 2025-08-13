@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -48,124 +49,124 @@
   }
 }
 .star:nth-child(1) {
-  --star-tail-length: 5.65em;
-  --top-offset: 58.25vh;
-  --fall-duration: 7.632s;
-  --fall-delay: 0.703s;
+  --star-tail-length: 5.79em;
+  --top-offset: 93.4vh;
+  --fall-duration: 8.16s;
+  --fall-delay: 3.25s;
 }
 .star:nth-child(2) {
-  --star-tail-length: 6.45em;
-  --top-offset: 37.67vh;
-  --fall-duration: 6.046s;
-  --fall-delay: 9.923s;
+  --star-tail-length: 7.14em;
+  --top-offset: 19.42vh;
+  --fall-duration: 7.554s;
+  --fall-delay: 1.257s;
 }
 .star:nth-child(3) {
-  --star-tail-length: 5.01em;
-  --top-offset: 98.91vh;
-  --fall-duration: 6.274s;
-  --fall-delay: 9.798s;
+  --star-tail-length: 6.04em;
+  --top-offset: 66.42vh;
+  --fall-duration: 9.358s;
+  --fall-delay: 7.659s;
 }
 .star:nth-child(4) {
-  --star-tail-length: 7.14em;
-  --top-offset: 5.47vh;
-  --fall-duration: 9.164s;
-  --fall-delay: 7.019s;
+  --star-tail-length: 7.07em;
+  --top-offset: 34.23vh;
+  --fall-duration: 11.127s;
+  --fall-delay: 2.378s;
 }
 .star:nth-child(5) {
-  --star-tail-length: 6.48em;
-  --top-offset: 79.68vh;
-  --fall-duration: 9.023s;
-  --fall-delay: 3.105s;
+  --star-tail-length: 6.38em;
+  --top-offset: 3.43vh;
+  --fall-duration: 9.438s;
+  --fall-delay: 1.183s;
 }
 .star:nth-child(6) {
-  --star-tail-length: 5.13em;
-  --top-offset: 75.41vh;
-  --fall-duration: 7.375s;
-  --fall-delay: 4.829s;
+  --star-tail-length: 5.88em;
+  --top-offset: 98.78vh;
+  --fall-duration: 7.053s;
+  --fall-delay: 2.125s;
 }
 .star:nth-child(7) {
-  --star-tail-length: 6.4em;
-  --top-offset: 41.58vh;
-  --fall-duration: 7.387s;
-  --fall-delay: 2.448s;
+  --star-tail-length: 6.21em;
+  --top-offset: 69.18vh;
+  --fall-duration: 8.179s;
+  --fall-delay: 0.006s;
 }
 .star:nth-child(8) {
-  --star-tail-length: 7.48em;
-  --top-offset: 58.64vh;
-  --fall-duration: 8.362s;
-  --fall-delay: 3.918s;
+  --star-tail-length: 6.35em;
+  --top-offset: 31.69vh;
+  --fall-duration: 7.439s;
+  --fall-delay: 4.584s;
 }
 .star:nth-child(9) {
-  --star-tail-length: 6.26em;
-  --top-offset: 22.45vh;
-  --fall-duration: 11.909s;
-  --fall-delay: 5.928s;
+  --star-tail-length: 6.4em;
+  --top-offset: 74.9vh;
+  --fall-duration: 7.689s;
+  --fall-delay: 5.243s;
 }
 .star:nth-child(10) {
-  --star-tail-length: 6.23em;
-  --top-offset: 62.68vh;
-  --fall-duration: 6.805s;
-  --fall-delay: 0.377s;
+  --star-tail-length: 5.5em;
+  --top-offset: 75.72vh;
+  --fall-duration: 11.667s;
+  --fall-delay: 8.59s;
 }
 .star:nth-child(11) {
-  --star-tail-length: 7.28em;
-  --top-offset: 93.3vh;
-  --fall-duration: 6.558s;
-  --fall-delay: 0.944s;
+  --star-tail-length: 6.14em;
+  --top-offset: 31.92vh;
+  --fall-duration: 7.898s;
+  --fall-delay: 4.228s;
 }
 .star:nth-child(12) {
-  --star-tail-length: 6.64em;
-  --top-offset: 96.08vh;
-  --fall-duration: 8.413s;
-  --fall-delay: 7.408s;
+  --star-tail-length: 6.19em;
+  --top-offset: 67.14vh;
+  --fall-duration: 10.482s;
+  --fall-delay: 2.582s;
 }
 .star:nth-child(13) {
-  --star-tail-length: 5.49em;
-  --top-offset: 16.87vh;
-  --fall-duration: 7.732s;
-  --fall-delay: 1.128s;
+  --star-tail-length: 6.36em;
+  --top-offset: 34.39vh;
+  --fall-duration: 7.451s;
+  --fall-delay: 2.89s;
 }
 .star:nth-child(14) {
-  --star-tail-length: 5.55em;
-  --top-offset: 40.94vh;
-  --fall-duration: 6.432s;
-  --fall-delay: 6.071s;
+  --star-tail-length: 6.51em;
+  --top-offset: 80.55vh;
+  --fall-duration: 8.136s;
+  --fall-delay: 4.575s;
 }
 .star:nth-child(15) {
-  --star-tail-length: 6.5em;
-  --top-offset: 87.31vh;
-  --fall-duration: 6.208s;
-  --fall-delay: 7.775s;
+  --star-tail-length: 7.15em;
+  --top-offset: 58.12vh;
+  --fall-duration: 11.462s;
+  --fall-delay: 2.735s;
 }
 .star:nth-child(16) {
-  --star-tail-length: 6.32em;
-  --top-offset: 74.75vh;
-  --fall-duration: 6.393s;
-  --fall-delay: 8.685s;
+  --star-tail-length: 5.63em;
+  --top-offset: 16.06vh;
+  --fall-duration: 7.681s;
+  --fall-delay: 4.057s;
 }
 .star:nth-child(17) {
-  --star-tail-length: 6.1em;
-  --top-offset: 61.63vh;
-  --fall-duration: 11.277s;
-  --fall-delay: 5.679s;
+  --star-tail-length: 6.06em;
+  --top-offset: 15.57vh;
+  --fall-duration: 6.499s;
+  --fall-delay: 0.83s;
 }
 .star:nth-child(18) {
-  --star-tail-length: 5.09em;
-  --top-offset: 87.18vh;
-  --fall-duration: 7.614s;
-  --fall-delay: 3.944s;
+  --star-tail-length: 7.16em;
+  --top-offset: 84.61vh;
+  --fall-duration: 11.219s;
+  --fall-delay: 0.411s;
 }
 .star:nth-child(19) {
-  --star-tail-length: 6.75em;
-  --top-offset: 80.3vh;
-  --fall-duration: 9.958s;
-  --fall-delay: 5.025s;
+  --star-tail-length: 5.41em;
+  --top-offset: 31.7vh;
+  --fall-duration: 10.012s;
+  --fall-delay: 8.212s;
 }
 .star:nth-child(20) {
-  --star-tail-length: 7.29em;
-  --top-offset: 45.42vh;
-  --fall-duration: 7.672s;
-  --fall-delay: 1.096s;
+  --star-tail-length: 7.34em;
+  --top-offset: 26.25vh;
+  --fall-duration: 6.876s;
+  --fall-delay: 6.989s;
 }
 .star::before, .star::after {
   position: absolute;
@@ -266,8 +267,9 @@ ul {
 
 nav ul li {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 12px;
+  font-size: 1.03rem;
 }
 
 .navbar ul li a {
@@ -292,6 +294,30 @@ nav ul li {
   z-index: 1;
 }
 
+@font-face {
+  font-family: "Geist";
+  src: url("https://assets.codepen.io/605876/GeistVF.ttf") format("truetype");
+}
+.banner-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: conic-gradient(from 180deg at 50% 70%, hsl(0, 0%, 98%) 0deg, #eec32d 72deg, #ec4b4b 144deg, #709ab9 216deg, #4dffbf 288deg, hsl(0, 0%, 98%) 360deg);
+  -webkit-mask: radial-gradient(circle at 50% 50%, white 2px, transparent 2.5px) 50% 50%/20px 20px, url("https://assets.codepen.io/605876/noise-mask.png") 256px 50%/256px 256px;
+          mask: radial-gradient(circle at 50% 50%, white 2px, transparent 2.5px) 50% 50%/20px 20px, url("https://assets.codepen.io/605876/noise-mask.png") 256px 50%/256px 256px;
+  -webkit-mask-composite: source-in, xor;
+          mask-composite: intersect;
+  animation: flicker 20s infinite linear;
+  border-radius: 16px;
+  z-index: 0;
+}
+
+@keyframes flicker {
+  to {
+    -webkit-mask-position: 50% 50%, 0 50%;
+            mask-position: 50% 50%, 0 50%;
+  }
+}
 .profile {
   position: absolute;
   top: 11vh;
@@ -344,7 +370,7 @@ nav ul li {
 
 .education-content img {
   filter: invert(100%) brightness(0.7);
-  width: 10vw;
+  width: 7vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -438,6 +464,65 @@ nav ul li {
   font-size: large;
 }
 
+.feedback h4 {
+  filter: brightness(0.7);
+}
+
+.rate {
+  float: right;
+  height: 46px;
+  display: flex;
+  margin-left: 0;
+  flex-direction: row;
+  flex-direction: row-reverse;
+}
+
+.rate-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.rate-section h5 {
+  filter: brightness(0.8);
+}
+
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate:not(:checked) > label {
+  float: left;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
 #feadback {
   width: 40vw;
   height: 20vh;
@@ -470,6 +555,10 @@ nav ul li {
   border-radius: 16px 16px 0 0;
 }
 
+footer p {
+  filter: brightness(0.9);
+}
+
 .social-icon {
   display: flex;
   justify-content: space-between;
@@ -477,8 +566,8 @@ nav ul li {
 }
 
 footer img {
-  width: 40px;
-  filter: invert(100%);
+  width: 45px;
+  filter: invert(100%) brightness(0.9);
   padding: 0 10px;
   text-decoration: none;
   border: none;

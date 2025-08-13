@@ -59,7 +59,6 @@
   animation: fall var(--fall-duration) var(--fall-delay) linear infinite, tail-fade var(--tail-fade-duration) var(--fall-delay) ease-out infinite;
   
   @include sp-layout {
-    // For mobile performance, tail-fade animation will be removed QAQ
     animation: fall var(--fall-duration) var(--fall-delay) linear infinite;
   }
 
@@ -129,6 +128,7 @@ html, body {
     background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
 }
 
+
 .gaps{
     margin-top: 50px;
 }
@@ -179,13 +179,13 @@ ul{
 
 nav ul li{
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 12px;
+  font-size: 1.03rem;
   
 }
 .navbar ul li a{
   text-decoration: none;
- ;
 }
 .navbar ul li a:hover{
   color: #287ed4;
@@ -204,6 +204,40 @@ nav ul li{
     position: relative;
     z-index: 1;
 }
+
+@font-face {
+  font-family: "Geist";
+  src: url("https://assets.codepen.io/605876/GeistVF.ttf") format("truetype");
+}
+
+.banner-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: conic-gradient(
+    from 180deg at 50% 70%,
+    hsla(0,0%,98%,1) 0deg,
+    #eec32d 72deg,
+    #ec4b4b 144deg,
+    #709ab9 216deg,
+    #4dffbf 288deg,
+    hsla(0,0%,98%,1) 360deg
+  );
+  mask:
+    radial-gradient(circle at 50% 50%, white 2px, transparent 2.5px) 50% 50% / 20px 20px,
+    url("https://assets.codepen.io/605876/noise-mask.png") 256px 50% / 256px 256px;
+  mask-composite: intersect;
+  animation: flicker 20s infinite linear;
+  border-radius: 16px;
+  z-index: 0;
+}
+
+@keyframes flicker {
+  to {
+    mask-position: 50% 50%, 0 50%;
+  }
+}
+
 .profile{
     position:absolute;
     top: 11vh;
@@ -255,7 +289,7 @@ nav ul li{
 }
 .education-content img{
   filter: invert(100%) brightness(0.7); 
-  width: 10vw;
+  width: 7vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -283,15 +317,6 @@ nav ul li{
   align-self: center;
 }
 
-// .education-content p{
-//   margin-bottom: 10px;
-//   padding: 5px;
-// }
-// .year{
-//   margin-bottom: 0;
-//   align-items: flex-end;
-//   margin-top: auto;
-// }
 
 .education-content .year {
   margin-top: auto; 
@@ -328,6 +353,7 @@ nav ul li{
 .project-card p{
   margin-bottom: 15px;
   padding: 5px;
+  
 }
 .project-link{
   align-items: flex-end;
@@ -353,6 +379,62 @@ nav ul li{
   font-size: large;
   
 }
+.feedback h4{
+  filter: brightness(0.7);
+}
+
+
+
+.rate {
+    float: right;
+    height: 46px;
+    display: flex;
+    margin-left: 0;
+    flex-direction: row;
+    flex-direction: row-reverse;
+}
+
+.rate-section{
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+
+.rate-section h5{
+  filter: brightness(0.8);
+}
+
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:left;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
 #feadback{
   width: 40vw;
   height: 20vh;
@@ -382,6 +464,10 @@ nav ul li{
   padding: 35px;
   margin-top: 20px;
   border-radius: 16px 16px 0 0;
+  
+}
+footer p{
+  filter: brightness(0.9);
 }
 .social-icon{
   display: flex;
@@ -389,23 +475,14 @@ nav ul li{
   gap: 40px;
 }
 footer img{
-  width:40px;
-  filter: invert(100%);
+  width:45px;
+  filter: invert(100%) brightness(0.9);
   padding: 0 10px;
   text-decoration: none;
   border:none;
 }
 
 
-// @include sp-layout {
-//   .project-card {
-//     width: 90vw;
-//     margin-right: 0;
-//   }
-//   .project-image {
-//     height: 140px;
-//   }
-// }
 
 /* loder animation  */
 .loader {
